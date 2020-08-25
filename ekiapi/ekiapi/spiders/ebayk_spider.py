@@ -1,4 +1,6 @@
-import scrapy 
+import scrapy
+import json
+
 
 class QuotesSpider(scrapy.Spider):
     name = "ebayk"
@@ -12,20 +14,39 @@ class QuotesSpider(scrapy.Spider):
 
         return temp
 
+    @staticmethod
+    def getUrls ():
+            
+        with open('config.json', 'r') as f:
+            config = json.load(f)
+
+        baseUrl = config['DEFAULT']['baseUrl']
+        sortingUrl = config['DEFAULT']['sortingUrl']
+        legoUrl = config['DEFAULT']['legoUrl']
+        siteUrl = config['DEFAULT']['siteUrl']
+        appendUrl = config['DEFAULT']['appendUrl']
+
+
+        setId = config['SETS']
+        urls = []
+
+        for l in setId:
+
+            temp = str(l['setId'])
+
+            new_url = baseUrl + sortingUrl + legoUrl + temp + appendUrl  
+            urls.append(new_url)
+
+            if l['site'] > 1:
+                new_url = baseUrl + sortingUrl + siteUrl + legoUrl + temp + appendUrl  
+                urls.append(new_url)
+
+        return urls
 
     def start_requests(self):
         
-        base_url = 'https://www.ebay-kleinanzeigen.de'
-        sorting_url = '/s-sortierung:preis/lego-'
-        append_url = '/k0'
-
-        setId = [ 420009, 42029, 42055, 42078, 42094, 42100, 42107, 42108, 42109, 42110, 42111, 42112, 42114, 42115]
-        urls = []
-        for id in setId:
-            new_url = base_url + sorting_url + str(id) + append_url
-            urls.append(new_url)
+        urls = self.getUrls()
         
-     
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 

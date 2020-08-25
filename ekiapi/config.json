@@ -1,0 +1,60 @@
+{
+    "DEFAULT": {
+      "baseUrl":"https://www.ebay-kleinanzeigen.de",
+      "sortingUrl": "/s-sortierung:preis",
+      "legoUrl": "/lego-",
+      "siteUrl": "/seite:2",
+      "appendUrl": "/k0"
+    },
+    "SETS": [
+        {"setId": 42096,
+         "site" : 1
+        },
+        {"setId": 42110,
+            "site" : 1
+        },
+        {"setId": 42114,
+            "site" : 1
+        },
+        {"setId": 42109,
+            "site" : 1
+           },
+           {"setId": 42082,
+            "site" : 2
+           },
+           {"setId": 42099,
+            "site" : 1
+           },
+           {"setId": 42100,
+            "site" : 1
+           },
+           {"setId": 42107,
+            "site" : 1
+           },
+           {"setId": 42108,
+            "site" : 1
+           },
+           {"setId": 42112,
+            "site" : 1
+           },
+           {"setId": 42053,
+            "site" : 2
+           },
+           {"setId": 42009,
+            "site" : 2
+           },
+           {"setId": 42055,
+            "site" : 2
+           },
+           {"setId": 42029,
+            "site" : 1
+           },
+           {"setId": 42070,
+            "site" : 1
+           },
+           {"setId": 42078,
+            "site" : 1
+           }
+
+    ]
+  }
