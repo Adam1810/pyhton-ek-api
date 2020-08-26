@@ -50,6 +50,5 @@ class QuotesSpider(scrapy.Spider):
             'description': strong[2],
             'UVP': strong[8],
             'price': self.clean(strong[9]),
-            'POV': self.clean(strong[11]),
-            'Rate': strong[13]
+            'POV': self.clean(strong[11])
         }
