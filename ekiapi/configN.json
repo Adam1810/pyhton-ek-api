@@ -1,0 +1,26 @@
+{
+    "DEFAULT": {
+      "baseUrl":"https://www.brickmerge.de/"
+    },
+    "SETS": [
+        {"setId": 70670
+         
+        },
+        {"setId": 70670
+            
+        },
+        {"setId": 70678
+            
+        },
+        {"setId": 71705
+            
+           },
+           {"setId": 71721
+        
+           },
+           {"setId": 71722
+            
+           }
+
+    ]
+  }
