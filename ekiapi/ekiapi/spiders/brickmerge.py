@@ -48,6 +48,7 @@ class QuotesSpider(scrapy.Spider):
         yield {
             'set-id': strong[3],
             'description': strong[2],
+            'UVP': strong[8],
             'price': self.clean(strong[9]),
             'POV': self.clean(strong[11]),
             'Rate': strong[13]
