@@ -7,24 +7,12 @@
       "appendUrl": "/k0"
     },
     "SETS": [
-        {"setId": 42096,
-         "site" : 1
-        },
         {"setId": 42110,
             "site" : 1
         },
         {"setId": 42114,
             "site" : 1
         },
-        {"setId": 42109,
-            "site" : 1
-           },
-           {"setId": 42082,
-            "site" : 2
-           },
-           {"setId": 42099,
-            "site" : 1
-           },
            {"setId": 42100,
             "site" : 1
            },
