@@ -1,62 +1,11 @@
 {
     "DEFAULT": {
       "baseUrl":"https://www.ebay-kleinanzeigen.de",
+      "brickmergeUrl": "https://www.brickmerge.de/", 
       "sortingUrl": "/s-sortierung:preis",
       "legoUrl": "/lego-",
       "siteUrl": "/seite:2",
       "appendUrl": "/k0"
     },
-    "SETS": [
-        {"setId": 42110,
-            "site" : 1
-        },
-        {"setId": 42114,
-            "site" : 1
-        },
-           {"setId": 42100,
-            "site" : 1
-           },
-           {"setId": 42107,
-            "site" : 1
-           },
-           {"setId": 42108,
-            "site" : 1
-           },
-           {"setId": 42112,
-            "site" : 1
-           },
-           {"setId": 42053,
-            "site" : 2
-           },
-           {"setId": 42009,
-            "site" : 2
-           },
-           {"setId": 42055,
-            "site" : 2
-           },
-           {"setId": 42029,
-            "site" : 1
-           },
-           {"setId": 42070,
-            "site" : 1
-           },
-           {"setId": 42078,
-            "site" : 1
-           },
-        {"setId": 31109,
-            "site" : 1
-           },
-         {"setId": 31097,
-            "site" : 1
-           },
-           {"setId": "2254", "site": 1}, {"setId": "2259", "site": 1}, {"setId": "2260", "site": 1}, {"setId": "2263", "site": 1}, {"setId": "2504", "site": 1}, {"setId": "2505", "site": 1}, {"setId": "2506", "site": 1}, {"setId": "2507", "site": 1}, {"setId": "2508", "site": 1}, {"setId": "2509", "site": 1}, {"setId": "2518", "site": 1}, {"setId": "2519", "site": 1}, {"setId": "2520", "site": 1}, {"setId": "2521", "site": 1}, {"setId": "70500", "site": 1}, {"setId": "70501", "site": 1}, {"setId": "70502", "site": 1}, {"setId": "70503", "site": 1}, {"setId": "70504", "site": 1}, {"setId": "70505", "site": 1}, {"setId": "70588", "site": 1}, {"setId": "70589", "site": 1}, {"setId": "70590", "site": 1}, {"setId": "70591", "site": 1}, {"setId": "70592", "site": 1}, {"setId": "70593", "site": 1}, {"setId": "70594", "site": 1}, {"setId": "70595", "site": 1}, {"setId": "70596", "site": 1}, {"setId": "70600", "site": 1}, {"setId": "70601", "site": 1}, {"setId": "70602", "site": 1}, {"setId": "70603", "site": 1}, {"setId": "70604", "site": 1}, {"setId": "70605", "site": 1}, {"setId": "70622", "site": 1}, {"setId": "70623", "site": 1}, {"setId": "70624", "site": 1}, {"setId": "70625", "site": 1}, {"setId": "70626", "site": 1}, {"setId": "70627", "site": 1}, {"setId": "70638", "site": 1}, {"setId": "70639", "site": 1}, {"setId": "70640", "site": 1}, {"setId": "70641", "site": 1}, {"setId": "70642", "site": 1}, {"setId": "70643", "site": 1}, {"setId": "70650", "site": 1}, {"setId": "70651", "site": 1}, {"setId": "70652", "site": 1}, {"setId": "70653", "site": 1}, {"setId": "70654", "site": 1}, {"setId": "70655", "site": 1}, {"setId": "70658", "site": 1}, {"setId": "70661", "site": 1}, {"setId": "70662", "site": 1}, {"setId": "70663", "site": 1}, {"setId": "70664", "site": 1}, {"setId": "70665", "site": 1}, {"setId": "70666", "site": 1}, {"setId": "70667", "site": 1}, {"setId": "70668", "site": 1}, {"setId": "70669", "site": 1}, {"setId": "70670", "site": 1}, {"setId": "70672", "site": 1}, {"setId": "70673", "site": 1}, {"setId": "70674", "site": 1}, {"setId": "70675", "site": 1}, {"setId": "70676", "site": 1}, {"setId": "70677", "site": 1}, {"setId": "70678", "site": 1}, {"setId": "70679", "site": 1}, {"setId": "70680", "site": 1}, {"setId": "70684", "site": 1}, {"setId": "70721", "site": 1}, {"setId": "70722", "site": 1}, {"setId": "70723", "site": 1}, {"setId": "70724", "site": 1}, {"setId": "70725", "site": 1}, {"setId": "70726", "site": 1}, {"setId": "70727", "site": 1}, {"setId": "70728", "site": 1}, {"setId": "70730", "site": 1}, {"setId": "70731", "site": 1}, {"setId": "70732", "site": 1}, {"setId": "70733", "site": 1}, {"setId": "70734", "site": 1}, {"setId": "70735", "site": 1}, {"setId": "70736", "site": 1}, {"setId": "70737", "site": 1}, {"setId": "70738", "site": 1}, {"setId": "70745", "site": 1}, {"setId": "70746", "site": 1}, {"setId": "70747", "site": 1}, {"setId": "70748", "site": 1}, {"setId": "70749", "site": 1}, {"setId": "70750", "site": 1}, {"setId": "70751", "site": 1}, {"setId": "70754", "site": 1}, {"setId": "70755", "site": 1}, {"setId": "70756", "site": 1}, {"setId": "71699", "site": 1}, {"setId": "71700", "site": 1}, {"setId": "71702", "site": 1}, {"setId": "71703", "site": 1}, {"setId": "71704", "site": 1}, {"setId": "71705", "site": 1}, {"setId": "71707", "site": 1}, {"setId": "71708", "site": 1}, {"setId": "71709", "site": 1}, {"setId": "71710", "site": 1}, {"setId": "71711", "site": 1}, {"setId": "71712", "site": 1}, {"setId": "71713", "site": 1}, {"setId": "71717", "site": 1}, {"setId": "71718", "site": 1}, {"setId": "71719", "site": 1}, {"setId": "71720", "site": 1}, {"setId": "71721", "site": 1}, {"setId": "71722", "site": 1}, {"setId": "9441", "site": 1}, {"setId": "9442", "site": 1}, {"setId": "9443", "site": 1}, {"setId": "9444", "site": 1}, {"setId": "9445", "site": 1}, {"setId": "9446", "site": 1}, {"setId": "9447", "site": 1}, {"setId": "9448", "site": 1}, {"setId": "9449", "site": 1}, {"setId": "9450", "site": 1}, {"setId": "9455", "site": 1}, {"setId": "9456", "site": 1}, {"setId": "9457", "site": 1}, {"setId": "9558", "site": 1}
-
-
-
-
-
-
-
-
-    ]
+    "SETS": []
   }

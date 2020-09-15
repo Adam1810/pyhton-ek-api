@@ -8,17 +8,17 @@ class QuotesSpider(scrapy.Spider):
     @staticmethod
     def clean(sValue):
 
-        temp = sValue.replace('\xa0€', '')
+        temp = sValue.replace(' €', '')
 
         return temp
 
     @staticmethod
     def getUrls ():
             
-        with open('configN.json', 'r') as f:
+        with open('config.json', 'r') as f:
             config = json.load(f)
 
-        baseUrl = config['DEFAULT']['baseUrl']
+        baseUrl = config['DEFAULT']['brickmergeUrl']
 
 
         setId = config['SETS']
@@ -43,12 +43,14 @@ class QuotesSpider(scrapy.Spider):
     def parse(self, response):
 
         r = response.css("div.medium-4")
+        price = r.css("span.theprice::text").get()
+
         strong = r.css("strong::text").getall()
 
         yield {
             'set-id': strong[3],
             'description': strong[2],
             'UVP': strong[8],
-            'price': self.clean(strong[9]),
+            'price': self.clean(price),
             'POV': self.clean(strong[11])
         }
